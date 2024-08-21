@@ -12,7 +12,6 @@ while True:
         todos = get_todos()
 
         todos.append(todo + "\n")
-
         wraite_todos(filepath="todos.txt", todose_arg=todos)
 
     elif   user_action.startswith('show'):
